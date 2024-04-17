@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
     res.send('Hello, World!');
 });
 
-console.log("Hello again")
+console.log("Bye")
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
